@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="580.0" prefWidth="1300.0" stylesheets="@../image/css.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.medicalcollege.HelloPageController">
+   <center>
+        <AnchorPane prefHeight="580.0" prefWidth="1300.0" BorderPane.alignment="CENTER">
+            <children>
+                <AnchorPane prefHeight="64.0" prefWidth="1300.0" style="-fx-background-color: teal;">
+                    <children>
+                        <HBox prefHeight="64.0" prefWidth="1170.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-70.0" AnchorPane.topAnchor="0.0">
+                            <children>
+                                <ImageView fitHeight="50.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../image/icon.png" />
+                                    </image>
+                           <HBox.margin>
+                              <Insets left="5.0" top="5.0" />
+                           </HBox.margin>
+                                </ImageView>
+                                <AnchorPane prefHeight="72.0" prefWidth="881.0" stylesheets="@../image/css.css">
+                                    <children>
+                                        <Label layoutX="14.0" layoutY="5.0" prefHeight="43.0" prefWidth="349.0" text="Innovative Medical College">
+                                            <font>
+                                                <Font name="Candara" size="24.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </HBox>
+                    </children>
+                </AnchorPane>
+                <BorderPane layoutY="99.0" prefHeight="494.0" prefWidth="933.0">
+                    <top>
+                        <AnchorPane prefHeight="479.0" prefWidth="933.0" BorderPane.alignment="CENTER">
+                            <children>
+                        <ImageView fitHeight="431.0" fitWidth="706.0" layoutX="-440.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/218155_graduation-png.png" />
+                           </image>
+                        </ImageView>
+                                <ImageView fitHeight="431.0" fitWidth="837.0" layoutX="700.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../image/218155_graduation-png.png" />
+                                    </image>
+                                </ImageView>
+                                <ImageView fitHeight="189.0" fitWidth="192.0" layoutX="6.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../image/beat.png" />
+                                    </image>
+                                </ImageView>
+                                <ImageView fitHeight="182.0" fitWidth="187.0" layoutX="153.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../image/beat.png" />
+                                    </image>
+                                </ImageView>
+                                <Label layoutX="14.0" layoutY="14.0" prefHeight="38.0" prefWidth="113.0" stylesheets="@../image/css.css" text="Log in as">
+                                    <font>
+                                        <Font name="Bodoni MT" size="24.0" />
+                                    </font>
+                                </Label>
+                                <BorderPane layoutX="49.0" layoutY="52.0" onMouseClicked="#StudentLogin" prefHeight="43.0" prefWidth="117.0" styleClass="mouse-moved-ash" stylesheets="@../image/css.css">
+                                    <left>
+                                        <ImageView fitHeight="24.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                                            <image>
+                                                <Image url="@../image/user.png" />
+                                            </image>
+                                        </ImageView>
+                                    </left>
+                                    <center>
+                                        <Label prefHeight="18.0" prefWidth="69.0" stylesheets="@../image/css.css" text="Student" BorderPane.alignment="CENTER">
+                                            <font>
+                                                <Font name="System Italic" size="14.0" />
+                                            </font>
+                                        </Label>
+                                    </center>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                                </BorderPane>
+                                <BorderPane layoutX="49.0" layoutY="95.0" onMouseClicked="#AdminLogin" prefHeight="43.0" prefWidth="117.0" styleClass="mouse-moved-ash" stylesheets="@../image/css.css">
+                                    <left>
+                                        <ImageView fitHeight="24.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                                            <image>
+                                                <Image url="@../image/user.png" />
+                                            </image>
+                                        </ImageView>
+                                    </left>
+                                    <center>
+                                        <Label prefHeight="18.0" prefWidth="69.0" stylesheets="@../image/css.css" text="Admin" BorderPane.alignment="CENTER">
+                                            <font>
+                                                <Font name="System Italic" size="14.0" />
+                                            </font>
+                                        </Label>
+                                    </center>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                                </BorderPane>
+                                <Label layoutX="160.0" layoutY="195.0" prefHeight="29.0" prefWidth="189.0" stylesheets="@../image/css.css" text="Cherish Your Dream" textFill="#ff0085">
+                                    <font>
+                                        <Font name="Algerian" size="18.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="289.0" layoutY="249.0" prefHeight="29.0" prefWidth="189.0" stylesheets="@../image/css.css" text="To Be A Doctor" textFill="#ff0085">
+                                    <font>
+                                        <Font name="Algerian" size="18.0" />
+                                    </font>
+                                </Label>
+                                <BorderPane layoutX="49.0" layoutY="138.0" prefHeight="43.0" prefWidth="117.0" styleClass="mouse-moved-ash" stylesheets="@../image/css.css">
+                                    <left>
+                                        <ImageView fitHeight="24.0" fitWidth="33.0" onMouseClicked="#DoctorLogin" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                                            <image>
+                                                <Image url="@../image/user.png" />
+                                            </image>
+                                        </ImageView>
+                                    </left>
+                                    <center>
+                                        <Label onMouseClicked="#DoctorLogin" prefHeight="18.0" prefWidth="69.0" stylesheets="@../image/css.css" text="Faculty" BorderPane.alignment="CENTER">
+                                            <font>
+                                                <Font name="System Italic" size="14.0" />
+                                            </font>
+                                        </Label>
+                                    </center>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                                </BorderPane>
+                        <ImageView fitHeight="431.0" fitWidth="706.0" layoutX="144.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/218155_graduation-png.png" />
+                           </image>
+                        </ImageView>
+                            </children>
+                        </AnchorPane>
+                    </top>
+                </BorderPane>
+                <AnchorPane layoutY="60.0" prefHeight="60.0" prefWidth="933.0">
+                    <children>
+                        <BorderPane layoutX="16.0" layoutY="5.0" onMouseClicked="#location" prefHeight="43.0" prefWidth="95.0" styleClass="mouse-moved-ash" stylesheets="@../image/css.css">
+                            <left>
+                                <ImageView fitHeight="24.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                                    <image>
+                                        <Image url="@../image/location1.png" />
+                                    </image>
+                                </ImageView>
+                            </left>
+                            <center>
+                                <Label prefHeight="20.0" prefWidth="59.0" stylesheets="@../image/css.css" text="Location" BorderPane.alignment="CENTER">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font></Label>
+                            </center>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                        </BorderPane>
+                        <BorderPane layoutX="558.0" layoutY="5.0" prefHeight="43.0" prefWidth="117.0" />
+                    </children>
+                </AnchorPane>
+                  <BorderPane layoutX="1180.0" layoutY="63.0" onMouseClicked="#aboutus" prefHeight="43.0" prefWidth="91.0" styleClass="mouse-moved-ash" stylesheets="@../image/css.css">
+                      <left>
+                          <ImageView fitHeight="24.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                              <image>
+                                  <Image url="@../image/aboutus1.png" />
+                              </image>
+                          </ImageView>
+                      </left>
+                      <center>
+                          <Label prefHeight="20.0" prefWidth="59.0" stylesheets="@../image/css.css" text="About us" BorderPane.alignment="CENTER">
+                              <font>
+                                  <Font size="14.0" />
+                              </font>
+                  </Label>
+                      </center>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                  </BorderPane>
+            </children>
+        </AnchorPane>
+   </center>
+</BorderPane>
